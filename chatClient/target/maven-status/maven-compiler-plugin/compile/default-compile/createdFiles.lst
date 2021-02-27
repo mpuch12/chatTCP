@@ -1,0 +1,14 @@
+pl/umk/mat/plas/mvc/GroupGeneratorController.class
+pl/umk/mat/plas/model/User.class
+pl/umk/mat/plas/networking/ServerApp.class
+pl/umk/mat/plas/mvc/InvitationViewController.class
+pl/umk/mat/plas/main/NewMain.class
+pl/umk/mat/plas/mvc/ChatViewController.class
+pl/umk/mat/plas/mvc/LoginPanelController.class
+pl/umk/mat/plas/networking/ClientApp.class
+module-info.class
+pl/umk/mat/plas/model/Link.class
+pl/umk/mat/plas/model/Room.class
+pl/umk/mat/plas/main/Main.class
+pl/umk/mat/plas/mvc/CustomCell.class
+pl/umk/mat/plas/networking/ManageConnection.class

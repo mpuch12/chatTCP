@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.umk.mat.plas.mvc.GroupGeneratorController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="500.0">
+         <children>
+            <Label text="Nazwa Grupy" />
+            <TextField fx:id="groupNameTextField" maxHeight="200.0" maxWidth="200.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </TextField>
+            <HBox alignment="CENTER" prefHeight="230.0" prefWidth="250.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="230.0" prefWidth="150.0">
+                     <children>
+                        <Label text="Znajomi" />
+                        <ListView fx:id="friendsListView" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Button fx:id="friendsToGroupButton" alignment="CENTER" mnemonicParsing="false" text="-----&gt;">
+                           <VBox.margin>
+                              <Insets bottom="15.0" />
+                           </VBox.margin>
+                        </Button>
+                        <Button fx:id="groupToFriendsButton" mnemonicParsing="false" text="&lt;-----" />
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <HBox.margin>
+                        <Insets />
+                     </HBox.margin>
+                  </VBox>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="150.0">
+                     <children>
+                        <Label text="Grupa" />
+                        <ListView fx:id="groupListView" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </HBox>
+            <Button fx:id="createGroupButton" mnemonicParsing="false" text="Utwórz grupę" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
