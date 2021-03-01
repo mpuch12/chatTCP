@@ -7,10 +7,15 @@
 * JavaFX 14
 * MySQL
 
-## Zakres funkcjonalności
+## Screenshots
+![Example screenshot](./screenshots/panel-logowania.png)
+![Example screenshot](./screenshots/panel-glowny.png)
+![Example screenshot](./screenshots/grupa.png)
+
+## Funkcjonalności
 * Rejestracja i logowanie użytkowników
 * Wysyłanie i akteptowanie zaproszeń do listy kontaktów
 * Wysyłanie wiadomości do osób z listy kontaktów
-* Tworzenie pokoju rozmów i zarządzanie nimi
+* Tworzenie grup i zarządzanie nimi
   
 
